@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+.create-recipe {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 999;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.create-recipe .vl {
+  border-left: 3px solid #48bb74;
+  height: 65vh;
+  margin-top: 4.75em;
+}
+
+.create-recipe .inner {
+  margin-top: 4.75em;
+  width: 75%;
+  height: 65vh;
+  background-color: #161620;
+}
+
+.create-recipe .inner .top-bar {
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.create-recipe .inner .top-bar #close {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-top: 1.25em;
+}
+
+.create-recipe .main-recipe-container {
+  padding: 1em;
+  margin-top: -2em;
+}
+
+.create-recipe .main-recipe-container .questions .recipe-name label {
+  font-weight: bold;
+  color: white;
+}
+
+.create-recipe .main-recipe-container .questions .recipe-name input {
+  background-color: white;
+  outline: none;
+  border-radius: 0.5em;
+  border: none;
+  color: #28242c;
+  font-family: "Poppins", sans-serif;
+  margin-left: 0.75em;
+}
+/*# sourceMappingURL=createRecipe.css.map */

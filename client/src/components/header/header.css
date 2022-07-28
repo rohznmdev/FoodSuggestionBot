@@ -1,0 +1,27 @@
+.container {
+  width: 50%;
+}
+
+.container .link-container nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .link-container nav a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  text-decoration: none;
+  padding: 2px 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container .link-container nav a:hover {
+  color: purple;
+}
+/*# sourceMappingURL=header.css.map */

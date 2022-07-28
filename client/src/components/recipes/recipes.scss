@@ -1,0 +1,35 @@
+div {
+  h1,
+  h4 {
+    color: white;
+  }
+  .recipe-header {
+    display: flex;
+    align-items: baseline;
+    .recipe {
+      width: 55%;
+    }
+    .options-container {
+      width: 45%;
+      .recipe-options {
+        display: flex;
+        justify-content: space-between;
+        h4 {
+          cursor: pointer;
+          transition: 0.3s;
+        }
+        .create:hover {
+          color: #48bb74;
+        }
+        .delete:hover {
+          color: #e74b3c;
+        }
+      }
+    }
+  }
+  .recipe-content {
+    margin-top: -1em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

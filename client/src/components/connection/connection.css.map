@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,GADC,CACD,QAAQ,CAAC;EACP,KAAK,EAAE,GAAG;CACX",
+    "sources": [
+        "connection.scss"
+    ],
+    "names": [],
+    "file": "connection.css"
+}

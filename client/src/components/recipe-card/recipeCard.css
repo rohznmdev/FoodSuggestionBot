@@ -1,0 +1,30 @@
+.card {
+  border-radius: 3px;
+  border: 1px solid gray;
+  padding: 0em 1em;
+  position: relative;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  margin: 1em;
+}
+
+.card a,
+.card h5 {
+  color: white;
+  text-decoration: none;
+}
+
+.card .name-container a {
+  font-size: bold;
+}
+
+.card .content-container h3 {
+  color: white;
+}
+
+.card:hover {
+  border: 1px solid white;
+  -webkit-transition: border 0.5s;
+  transition: border 0.5s;
+}
+/*# sourceMappingURL=recipeCard.css.map */

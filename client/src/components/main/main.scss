@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+div {
+  .intro-header {
+    .introduction,
+    .recipe-container {
+      width: 50%;
+    }
+    display: flex;
+  }
+  .main {
+    margin-top: -2em;
+    display: flex;
+    h2 {
+      color: white;
+    }
+    .questions {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      label {
+        color: white;
+      }
+      input {
+        background-color: white;
+        outline: none;
+        border-radius: 0.5em;
+        border: none;
+        color: #28242c;
+        font-family: "Poppins", sans-serif;
+      }
+      .moods {
+        margin-top: 1em;
+        div {
+          input {
+            margin-left: 0.75em;
+            width: 25%;
+          }
+        }
+        .moods-container {
+          margin-top: -1em;
+          div {
+            margin-bottom: 0.5em;
+          }
+          .mood1 {
+            input {
+              margin-left: 1em;
+            }
+          }
+        }
+      }
+      .hunger {
+        h2 {
+          margin-top: 0;
+        }
+        .hunger-container {
+          margin-top: -1em;
+          select {
+            background-color: white;
+            margin-left: 0.75em;
+            border: none;
+            outline: none;
+          }
+        }
+      }
+      .calories {
+        margin-top: -1em;
+        h4 {
+          margin-top: -1em;
+        }
+        div {
+          margin-top: -1em;
+          input {
+            width: 25%;
+            margin-left: 0.75em;
+          }
+        }
+      }
+      .submit {
+        margin-top: 2em;
+      }
+    }
+    .displayed-recipe {
+      h2 {
+        padding: 0 0.75em;
+      }
+      margin-top: 1em;
+      width: 50%;
+      border-radius: 3px;
+      border: 1px solid gray;
+    }
+  }
+}

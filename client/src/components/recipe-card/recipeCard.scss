@@ -1,0 +1,27 @@
+.card {
+  a,
+  h5 {
+    color: white;
+    text-decoration: none;
+  }
+  border-radius: 3px;
+  border: 1px solid gray;
+  padding: 0em 1em;
+  position: relative;
+  transition-duration: 0.5s;
+  margin: 1em;
+  .name-container {
+    a {
+      font-size: bold;
+    }
+  }
+  .content-container {
+    h3 {
+      color: white;
+    }
+  }
+}
+.card:hover {
+  border: 1px solid white;
+  transition: border 0.5s;
+}

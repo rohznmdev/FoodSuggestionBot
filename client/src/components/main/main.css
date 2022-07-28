@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+div .intro-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div .intro-header .introduction,
+div .intro-header .recipe-container {
+  width: 50%;
+}
+
+div .main {
+  margin-top: -2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div .main h2 {
+  color: white;
+}
+
+div .main .questions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+div .main .questions label {
+  color: white;
+}
+
+div .main .questions input {
+  background-color: white;
+  outline: none;
+  border-radius: 0.5em;
+  border: none;
+  color: #28242c;
+  font-family: "Poppins", sans-serif;
+}
+
+div .main .questions .moods {
+  margin-top: 1em;
+}
+
+div .main .questions .moods div input {
+  margin-left: 0.75em;
+  width: 25%;
+}
+
+div .main .questions .moods .moods-container {
+  margin-top: -1em;
+}
+
+div .main .questions .moods .moods-container div {
+  margin-bottom: 0.5em;
+}
+
+div .main .questions .moods .moods-container .mood1 input {
+  margin-left: 1em;
+}
+
+div .main .questions .hunger h2 {
+  margin-top: 0;
+}
+
+div .main .questions .hunger .hunger-container {
+  margin-top: -1em;
+}
+
+div .main .questions .hunger .hunger-container select {
+  background-color: white;
+  margin-left: 0.75em;
+  border: none;
+  outline: none;
+}
+
+div .main .questions .calories {
+  margin-top: -1em;
+}
+
+div .main .questions .calories h4 {
+  margin-top: -1em;
+}
+
+div .main .questions .calories div {
+  margin-top: -1em;
+}
+
+div .main .questions .calories div input {
+  width: 25%;
+  margin-left: 0.75em;
+}
+
+div .main .questions .submit {
+  margin-top: 2em;
+}
+
+div .main .displayed-recipe {
+  margin-top: 1em;
+  width: 50%;
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+
+div .main .displayed-recipe h2 {
+  padding: 0 0.75em;
+}
+/*# sourceMappingURL=main.css.map */

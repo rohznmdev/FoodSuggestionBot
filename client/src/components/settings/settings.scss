@@ -1,0 +1,52 @@
+.settings-container {
+  h4 {
+    font-weight: normal;
+  }
+  h2 {
+    color: white;
+  }
+  .sql-info {
+    margin-top: -1em;
+  }
+  label {
+    color: white;
+  }
+  input {
+    background-color: white;
+    outline: none;
+    border-radius: 0.5em;
+    border: none;
+    color: #28242c;
+    font-family: "Poppins", sans-serif;
+  }
+  .sql {
+    display: flex;
+    flex-direction: column;
+    margin-top: -2em;
+    .sql-user {
+      position: relative;
+      margin: 1em 0;
+      display: flex;
+      align-items: baseline;
+      input {
+        margin-left: 0.7em;
+      }
+      h4 {
+        margin-left: 0.7em;
+      }
+    }
+    .sql-pass {
+      display: flex;
+      align-items: baseline;
+      input {
+        margin-left: 1.1em;
+      }
+      .save-pass {
+        margin-left: 0.75em;
+      }
+      h4 {
+        margin-left: 0.7em;
+      }
+    }
+  }
+}

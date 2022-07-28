@@ -1,0 +1,53 @@
+div h1,
+div h4 {
+  color: white;
+}
+
+div .recipe-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+div .recipe-header .recipe {
+  width: 55%;
+}
+
+div .recipe-header .options-container {
+  width: 45%;
+}
+
+div .recipe-header .options-container .recipe-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div .recipe-header .options-container .recipe-options h4 {
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+div .recipe-header .options-container .recipe-options .create:hover {
+  color: #48bb74;
+}
+
+div .recipe-header .options-container .recipe-options .delete:hover {
+  color: #e74b3c;
+}
+
+div .recipe-content {
+  margin-top: -1em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+/*# sourceMappingURL=recipes.css.map */

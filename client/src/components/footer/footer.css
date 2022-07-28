@@ -1,0 +1,22 @@
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  bottom: 5px;
+  left: 1.5em;
+  right: 1.5em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-container .version,
+.footer-container .time {
+  color: white;
+}
+
+.footer-container .doc-container {
+  color: #48bb74;
+}
+/*# sourceMappingURL=footer.css.map */

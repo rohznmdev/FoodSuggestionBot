@@ -1,0 +1,76 @@
+.settings-container h4 {
+  font-weight: normal;
+}
+
+.settings-container h2 {
+  color: white;
+}
+
+.settings-container .sql-info {
+  margin-top: -1em;
+}
+
+.settings-container label {
+  color: white;
+}
+
+.settings-container input {
+  background-color: white;
+  outline: none;
+  border-radius: 0.5em;
+  border: none;
+  color: #28242c;
+  font-family: "Poppins", sans-serif;
+}
+
+.settings-container .sql {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: -2em;
+}
+
+.settings-container .sql .sql-user {
+  position: relative;
+  margin: 1em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.settings-container .sql .sql-user input {
+  margin-left: 0.7em;
+}
+
+.settings-container .sql .sql-user h4 {
+  margin-left: 0.7em;
+}
+
+.settings-container .sql .sql-pass {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.settings-container .sql .sql-pass input {
+  margin-left: 1.1em;
+}
+
+.settings-container .sql .sql-pass .save-pass {
+  margin-left: 0.75em;
+}
+
+.settings-container .sql .sql-pass h4 {
+  margin-left: 0.7em;
+}
+/*# sourceMappingURL=settings.css.map */
